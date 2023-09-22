@@ -1,4 +1,4 @@
-package tk.gabrielsilvera.gaming;
+package tk.gabrielsilvera.gaming.concepts;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
