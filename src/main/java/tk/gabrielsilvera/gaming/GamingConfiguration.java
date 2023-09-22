@@ -6,17 +6,17 @@ import tk.gabrielsilvera.gaming.game.GameRunner;
 import tk.gabrielsilvera.gaming.game.GamingConsole;
 import tk.gabrielsilvera.gaming.game.PacmanGame;
 
-@Configuration
-public class GamingConfiguration {
-    @Bean
-    public GamingConsole game(){
-        var game = new PacmanGame();
-        return game;
-    }
-
-    @Bean
-    public GameRunner gameRunner(GamingConsole game){
-        var gameRunner = new GameRunner(game);
-        return gameRunner;
-    }
-}
+//@Configuration
+//public class GamingConfiguration {
+//    @Bean
+//    public GamingConsole game(){
+//        var game = new PacmanGame();
+//        return game;
+//    }
+//
+//    @Bean
+//    public GameRunner gameRunner(GamingConsole game){
+//        var gameRunner = new GameRunner(game);
+//        return gameRunner;
+//    }
+//}
